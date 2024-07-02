@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "cypress": "^13.10.0"
+  },
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "assignment for SDET CAW Studios",
+  "main": "index.js",
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rakesh Donakonda",
+  "license": "ISC"
+}
