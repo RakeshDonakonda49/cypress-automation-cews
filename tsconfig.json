@@ -1,8 +1,9 @@
 {
     "compilerOptions": {
       "target": "es2016",
+      "moduleResolution": "node",
       "lib": ["es2016", "dom"],
-      "types": ["cypress", "node"],
+      "types": ["cypress", "node", "cypress-grep"],
       "strict": true
     },
     "include": ["./cypress/**/*.ts", "cypress/app-module-libs/dynamicTable"]

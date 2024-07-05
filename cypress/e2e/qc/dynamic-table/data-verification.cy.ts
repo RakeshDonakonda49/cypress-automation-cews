@@ -7,7 +7,7 @@
 
 import DynamicTableMethods from "../../../app-module-libs/dynamic-table/dynamic-table.methods";
 
-describe('Dynamic HTML Table functionality veification', () => {
+describe('Dynamic HTML Table functionality veification', {tags:['flipKart', 'datatable']}, () => {
     let jsonData: any
     before(() => {
         cy.fixture('table-data.json').then((data) => {
